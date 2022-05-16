@@ -1,0 +1,12 @@
+name: examples
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.7
+  - nglview
+  - biopython
+  - jupyter
+  - requests
+  - rdkit
