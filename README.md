@@ -16,3 +16,14 @@ Interactive examples can be found for:
 * [EDIAscorer: Assessing electron density fit of individual atoms](notebooks/EDIAscorer_example.ipynb)
 * [Molecule handler: Working with proteins and ligands](notebooks/MoleculeHandler_example.ipynb)
 
+## Jupyter notebooks
+
+All notebooks can alternatively be run locally using jupyter notebook. We suggest using [conda](https://docs.conda.io/en/latest/miniconda.html) to manage the dependencies. You can generate a conda environment with all necessary dependencies using the following command:
+
+```bash
+conda create -n examples -c conda-forge -c anaconda python=3.7 nglview biopython jupyter requests rdkit
+conda activate examples
+```
+
+Some notebook cells are colab specific. These may fail in jupyter notebook, but will not influence the rest of the notebook.
+
