@@ -15,6 +15,7 @@ Interactive examples can be found for:
 * [SIENA: Binding site similarity search](notebooks/SIENA_example.ipynb)
 * [EDIAscorer: Assessing electron density fit of individual atoms](notebooks/EDIAscorer_example.ipynb)
 * [Molecule handler: Working with proteins and ligands](notebooks/MoleculeHandler_example.ipynb)
+* [StructureProfiler: Structure quality analysis](notebooks/StructureProfiler_example.ipynb)
 
 ## Jupyter notebooks
 
